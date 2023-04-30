@@ -3,7 +3,7 @@
 
 <img src="Images\Readme_pictures\1.png" alt="Derma AI logo" width="949" height="400">
 
-#### **Authors**: [Fridah Kimathi](https://github.com/FridahKimathi), [Scholar Chepkirui](https://github.com/Scholarchep), [Amos Kibe](https://github.com/AmosMaru), [Anthony Nene](https://github.com/AnthonyNene-Kiarie), [Eugene Kuloba](https://github.com/eugenekuloba) and [Beth Mithamor](https://github.com/Mythamor)
+#### **Authors**: [Fridah Kimathi](https://github.com/FridahKimathi), [Scholar Chepkirui](https://github.com/Scholarchep), [Amos Kibet](https://github.com/AmosMaru), [Anthony Nene](https://github.com/AnthonyNene-Kiarie), [Eugene Kuloba](https://github.com/eugenekuloba) and [Beth Mithamor](https://github.com/Mythamor)
 
 
 Table of Contents
