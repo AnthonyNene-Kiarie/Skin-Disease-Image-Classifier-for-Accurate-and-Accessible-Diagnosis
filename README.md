@@ -43,7 +43,7 @@ The data used for this project was sourced from two primary websites - [`DermNet
 
 ## Focus Diseases:
 ***
-The image classifier was trained to identify eight focus diseases: `Acne`, `Atopic Dermatitis (Eczema)`, `Actinic Keratosis`, `Benign Keratosis-like Lesions`, `Melanoma`, `Psoriasis`, `Basal Cell Carcinoma`, and `Tinea`. These diseases were selected based on their prevalence and the potential impact they can have on a person's health.
+The image classifier was trained to identify eight focus diseases: `Acne`, `Atopic Dermatitis (Eczema)`, `Actinic Keratosis(AK)`, `Benign Keratosis-like Lesions(BKL)`, `Melanoma`, `Psoriasis`, `Basal Cell Carcinoma(BCC)`, and `Tinea(Ringworm)`. These diseases were selected based on their prevalence and the potential impact they can have on a person's health.
 
 ## Data Preprocessing:
 ***
