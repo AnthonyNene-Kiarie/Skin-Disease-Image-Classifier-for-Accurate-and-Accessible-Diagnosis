@@ -10,8 +10,7 @@ Table of Contents
 ========
 
  * [Prerequisites](#Prerequisites)
- * [Introduction](#Introduction)
- * [Usage](#usage)
+ * [Overview](#Overview)
  * [Data Sources](#Data-Sources)
  * [Focus Diseases](#Focus-Diseases)
  * [Data Preprocessing](#Data-Preprocessing)
@@ -19,6 +18,8 @@ Table of Contents
  * [Model Evaluation](#Model-Evaluation)
  * [Web Application](#Web-Application)
  * [Demo](#Demo)
+ * [For More Information](#For-More-Information)
+ * [Repository Structure](#Repository-Structure)
 
 ## Prerequisites
 ***
