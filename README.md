@@ -43,7 +43,7 @@ The data used for this project was sourced from two primary websites - [`DermNet
 
 ## Focus Diseases:
 ***
-The image classifier was trained to identify eight focus diseases: `Acne`, `Atopic Dermatitis (Eczema)`, `Actinic Keratosis(AK)`, `Benign Keratosis-like Lesions(BKL)`, `Melanoma`, `Psoriasis`, `Basal Cell Carcinoma(BCC)`, and `Tinea(Ringworm)`. These diseases were selected based on their prevalence and the potential impact they can have on a person's health.
+The image classifier was trained to identify eight focus diseases: `Acne`, `Atopic Dermatitis (Eczema)`, `Actinic Keratosis`, `Benign Keratosis-like Lesions`, `Melanoma`, `Psoriasis`, `Basal Cell Carcinoma`, and `Tinea (Ringworm)`. These diseases were selected based on their prevalence and the potential impact they can have on a person's health.
 
 ## Data Preprocessing:
 ***
@@ -57,8 +57,9 @@ Derma AI's model architecture is based on Convolutional Neural Networks (CNNs), 
 ## Model Evaluation:
 ***
 
-The model's accuracy, indicating the proportion of correctly classified skin diseases, is used to evaluate its performance.
+The model's accuracy, indicating the proportion of correctly classified skin diseases, is used to evaluate its performance. 
 
+         Training and Validation Accuracy and Loss
 <img src="Images\Readme_pictures\loss_acc.png" alt="Loss and accuracy" width="949">
 
 ## Web Application:
@@ -68,14 +69,46 @@ To make the skin disease image classifier easily accessible to users, it was int
 
 The skin disease image classifier web application is powered by Flask, a popular Python-based web framework, and is hosted on the Google Cloud platform, ensuring reliability and scalability.
 
-<img src="https://user-images.githubusercontent.com/98489395/235007469-93d33cf4-d514-4ffe-a751-5fe49ccb2d5c.png" alt="frontpage_website" width="949" >
-
 [`Derma AI website`](https://skin-disease-project-384422.uc.r.appspot.com/)
 
-## Demo
+<img src="https://user-images.githubusercontent.com/98489395/235007469-93d33cf4-d514-4ffe-a751-5fe49ccb2d5c.png" alt="frontpage_website" width="949" >
+
+## Demo:
 ***
 
 Insert gif or link to demo
+
+## Conclusion:
+***
+
+The skin disease classifier model has shown promising results in accurately identifying various skin diseases with an 88% accuracy rate on the test set. The integration of this model into a website will provides an accessible and efficient platform for users to upload photos of their skin diseases and receive accurate diagnoses. However, the model is not without its limitations, including the potential for bias in the training dataset and variability in image quality uploaded by users. Future work includes expanding the dataset and improving the model's ability to identify other skin conditions, as well as conducting real-world validation studies and integrating the model with telemedicine technologies. Despite these limitations, the model represents a significant step forward in the field of dermatology and has the potential to improve access to healthcare for individuals with skin conditions.
+
+## Limitations:
+***
+
+* **Limited dataset:** The model was trained on a limited dataset, which may not be representative of all skin disease and skin types. 
+* **Lack of diversity:** Skin diseases can present differently in different people based on factors such as age, skin type, and ethnicity.Potential bias in the dataset used for training the model, which may lead to inaccurate predictions for certain demographics or skin types.
+* **Dependence on image quality:** The model's perfomance may vary depending on the quality of images uploaded by users. Images that are blurry, poorly lit, or not centered properly may not be accurately classified by the model.
+* **Human error:** The accuracy of the model may also be affected by human error, such as mislabeling or misdiagnosing the skin disease images in the dataset.
+
+## Recommendations:
+***
+* Collect more diverse and high-quality  skin disease images from different populations and sources to improve the model's ability to generalize to new data.
+* Incorporate expert knowledge  from dermatologists or other medical professionals to verify and help label and diagnose the skin disease images in the dataset.
+
+* Incorporate additional metrics such as precision, recall, and F1 score to evaluate the model's performance.
+
+* Investigate the potential of incorporating additional data sources such as patient history and clinical data to improve the accuracy of the diagnosis.
+
+## Future Work:
+***
+
+* **Real-world validation:** Real-world validation studies can be conducted to evaluate the model's performance in clinical settings and to assess its impact on patient outcomes.
+* **Expand dataset:** Expanding the dataset with more diverse skin types, demographics, and skin conditions can improve the model's generalizability and reduce potential biases.
+* **Expand to other skin conditions:** The model can be further developed to identify a broader range of skin conditions beyond the current scope of skin diseases, such as wounds. This would increase the versatility and usefulness of the model for both patients and healthcare professionals.
+* **Explainable AI:** Implementing explainable AI techniques can help clinicians and patients understand the model's decision-making process, increasing trust and transparency in the model's predictions.
+* **Integrate model with telemedicine technologies:** The model can also be integrated with telemedicine technologies to enable remote diagnosis and treatment of skin diseases.
+
 
 ## For More Information
 ***
