@@ -124,4 +124,4 @@ We appreciate your decision to use our skin disease image classifier, and we hop
 ├── DermaAI.ipynb
 ├── README.md
 ├── Skin_Image_Classifier_Presentation.pdf
-```
+```# Derma-AI-Skin-Disease-Image-Classifier-for-Accurate-and-Accessible-Diagnosis
